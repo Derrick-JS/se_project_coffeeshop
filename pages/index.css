@@ -5,4 +5,108 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  background: #ffffff url(../images/background_header.svg) no-repeat center
+    cover; /* moved over from body rules. maybe move over to .header?*/
+}
+
+.header {
+  padding: 30px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 30px 80px 0px 30px;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  height: 39px;
+  width: 105px;
+  justify-content: flex-start;
+}
+
+.nav__links {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.header__title {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  max-width: 729px;
+  margin: 183px 0px 0px;
+}
+
+.header__span-accent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  display: block;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  margin: 28px 0px 0px;
+}
+
+.header__image {
+}
+
+.header__footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}
+
+.recipes {
+  padding: 100px 80px 215px;
 }
