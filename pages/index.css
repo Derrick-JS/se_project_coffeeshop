@@ -16,6 +16,9 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  background-color: #ffffff;
+  background: url(../images/background_header.svg) no-repeat center cover;
+  size: cover;
 }
 
 .nav {
@@ -83,6 +86,7 @@
 }
 
 .header__image {
+  position: absolute;
 }
 
 .header__footer {
