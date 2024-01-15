@@ -27,10 +27,10 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="recipes" class="nav__link">Recipes</a></li>
-            <li><a href="reservation" class="nav__link">Book a Table</a></li>
-            <li><a href="menu" class="nav__link">Menu</a></li>
-            <li><a href="about" class="nav__link">Contacts</a></li>
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
+            <li><a href="#reservation" class="nav__link">Book a Table</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#about" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
         <div class="header__container">
@@ -89,7 +89,49 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="Name" class="form__label">Name</label>
+              <input
+                type="text"
+                class="form__input"
+                id="Name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="Guests" class="form__label">Number of Guests</label>
+              <input
+                type="number"
+                class="form__input"
+                id="Guests"
+                placeholder="1-8"
+                required
+              />
+              <label for="Date" class="form__label">Date & Time </label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="Date"
+                required
+              />
+              <label for="Email" class="form__label">Your Email</label>
+              <input
+                type="email"
+                class="form__input"
+                id="Email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button">Book a Table</button>
+            <label for="EULA" class="form__label form__label_type_checkbox">
+              <input type="checkbox" id="EULA" class="form__checkbox" />"I agree
+              with terms of use"
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
