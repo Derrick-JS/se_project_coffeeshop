@@ -1,0 +1,32 @@
+.about{
+  background-color: #0a2850;
+}
+
+.about__circle{
+  position: absolute;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+}
+
+.about__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0px 0px 80px;
+  max-width: 251px;
+}
+
+.about__content{
+  margin: 119px 0px 173px 80px;
+  list-style-type: none;
+  max-width: 660px;
+  padding: 0;
+}
+
+.about__paragraph{
+  gap: 20px;
+}
