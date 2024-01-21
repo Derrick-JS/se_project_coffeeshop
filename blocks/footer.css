@@ -1,15 +1,12 @@
 .footer{
 background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+padding: 60px 80px 108px;;
 background-size: cover;
 }
 
-.footer__circle{
-position: absolute;
-border-radius: 50%;
-}
-
 .footer__content{
-margin: 60px 80px 108px;
+display: flex;
+justify-content: space-between;
 }
 
 .footer__logo{
@@ -25,25 +22,29 @@ color: white;
 
 .footer__list{
 list-style-type:none;
+margin: 0;
+padding: 0;
 }
 
 .footer__list-item{
-
+ display: flex;
+ gap: 10px;
 }
 
 .footer__social-icon{
 
 }
 
-.footer___social-link{
+.footer__social-link{
  color: white;
+ margin: 0;
 }
 
-.footer___social-link:hover{
+.footer__social-link:hover{
   transition: #C1C1C1 0.3s ease-in-out;
 }
 
 .footer__copyright{
  color: white;
- margin: 0px 0px 60px 80px;
+ margin: 108px 0px 0px 0px;
 }
