@@ -54,10 +54,12 @@
 .footer__social-link {
   color: white;
   margin: 0;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
-  transition: #c1c1c1 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  color: #c1c1c1;
 }
 
 .footer__copyright {

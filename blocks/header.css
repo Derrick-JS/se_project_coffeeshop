@@ -36,10 +36,11 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   display: block;
-  max-width: 729px;
-  margin: 0px 0px 0px 80px;
+  width: 729px;
   position: relative;
   z-index: 1;
+  color: #000000;
+
 }
 
 .header__description {
@@ -80,16 +81,7 @@
 }
 
 .header__footer-address {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
   margin: auto 0px 0px 0px;
-  z-index: 1;
-  height: 20px;
-  align-self: flex-end;
 }
 
 .header__paragraph {
