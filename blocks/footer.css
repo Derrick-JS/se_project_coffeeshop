@@ -18,18 +18,28 @@
 .footer__social-heading {
   color: white;
   margin: 0px 0px 20px 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-item {
   display: flex;
   gap: 10px;
-  margin-bottom: 16px;
+  margin: 0px 0px 16px 0px;
 }
 
 .footer__list-item:last-child {
@@ -53,4 +63,9 @@
 .footer__copyright {
   color: white;
   margin: 108px 0px 0px 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }

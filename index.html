@@ -6,7 +6,6 @@
     <meta name="description" content="Official Coffee Shop Website" />
     <meta name="author" content="Derrick Sanchez" />
     <meta name="keywords" content="html, css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -52,8 +51,7 @@
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__footer-address">
-            <p class="header__paragraph">
+            <p class="header__paragraph header__footer-address">
               200 Success Avenue, The Town of Triple Peaks
             </p>
           </div>
@@ -207,20 +205,20 @@
         <section class="about" id="about">
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
-          <h3 class="about__title">About the coffee shop</h3>
-          <ul class="about__content">
-            <li class="about__paragraph">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
               Our coffeeshop is located in the Triple Peaks Library. It features
               6 tables and free Wifi.
-            </li>
-            <li class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized
-            </li>
-            <li class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Besides that, we try to reduce our environmental impact - so we
               don't sell single-use cupes. But you can buy one of our reusable
               cups!
-            </li>
+            </p>
           </ul>
         </section>
       </main>
@@ -232,7 +230,7 @@
             class="footer__logo"
           />
           <div class="footer__social">
-            <p class="footer__social-heading">Social Media</p>
+            <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <img
@@ -240,7 +238,8 @@
                   alt="Facebook Icon"
                   class="footer__social-icon"
                 />
-                <p class="footer__social-link">Facebook</p>
+                <a href="https://www.facebook.com" class="footer__social-link">Facebook</a>
+              </li>
               </li>
               <li class="footer__list-item">
                 <img
@@ -248,7 +247,7 @@
                   alt="Instagram Icon"
                   class="footer__social-icon"
                 />
-                <p class="footer__social-link">Instagram</p>
+                <a href="https://www.instagram.com" class="footer__social-link">Instagram</a>
               </li>
             </ul>
           </div>
