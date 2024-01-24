@@ -73,6 +73,7 @@
   color: #838383;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   margin: auto 80px 40px;
   z-index: 1;
 }
